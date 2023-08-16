@@ -116,3 +116,22 @@
 
 
 
+// const data=["Anil", "madan","Krushna","rama"]
+// const [...y]=data
+// console.log(y)
+
+// const set = new Set([1,2,2,3,3,4,4,5,5,6,6,7,7,1])
+// console.log(set)
+
+// const data = {name:"anil"}
+// console.log(delete data.name)
+
+// const data1 = ["Anil", "madan", "Krushna", "rama"]
+// const data2 = [{ name: "anil" }]
+// const mergeObj = { ...data1, ...data2 }
+// const mergeArr = [...data1,...data2]
+// console.log("object",mergeObj)
+// console.log("Array",mergeArr)
+const a=navigator.platform
+console.log(a)
+
