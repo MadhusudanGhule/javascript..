@@ -132,6 +132,4 @@
 // const mergeArr = [...data1,...data2]
 // console.log("object",mergeObj)
 // console.log("Array",mergeArr)
-const a=navigator.platform
-console.log(a)
 
