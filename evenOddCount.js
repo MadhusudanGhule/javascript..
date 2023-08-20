@@ -1,4 +1,4 @@
-let a=65454326587
+let a=123
 
 let b = String(a)
 let evenCount=0
@@ -11,4 +11,4 @@ for(let i=0;i<b.length;i++){
   }
 }
 
-console.log(evenCount,oddCount)
+console.log("evenCount",evenCount,"oddCount",oddCount)

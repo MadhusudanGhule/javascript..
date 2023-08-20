@@ -166,11 +166,4 @@ function findMissingNumber(nums) {
 
 const numbers = [3, 0, 1, 4,6]; // Missing number: 2
 const missingNumber = findMissingNumber(numbers);
-console.log(`The missing number is: ${missingNumber}`);
-
-
-
-
-
-
-
+console.log(`The missing number is: ${missingNumber}`);    
