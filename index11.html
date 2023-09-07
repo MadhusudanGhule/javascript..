@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="range" type="range" min="0" max="100" onchange="handleChange()" value="80">
+    <span id="value">80</span>
+    <script>
+        
+        function handleChange(){
+            let val =document.getElementById("range").value
+            document.getElementById("value").innerHTML = val
+ console.log(val)
+        }
+
+    </script>
+</body>
+
+</html>

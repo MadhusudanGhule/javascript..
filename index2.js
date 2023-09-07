@@ -53,21 +53,21 @@
 
 
 
-// let n=5;
-// let str="";
-// for(let row=0;row<=2*n;row++){
-//     let totelColsInRow= row > n ? 2 * n-row :row;
-//     // let tottelSpace= row < n ? 2 * n-row : row;
-//     let tottelSpace= n-totelColsInRow;
-//     for(let spece=0;spece<tottelSpace;spece++){
-//         str += " ";
-//     }
-//     for(let col=0;col<=totelColsInRow;col++){
-//         str += " *";
-//     }
-//     str+="\n";
-// }
-// console.log(str);
+let n=5;
+let str="";
+for(let row=0;row<=2*n;row++){
+    let totelColsInRow= row > n ? 2 * n-row :row;
+    // let tottelSpace= row < n ? 2 * n-row : row;
+    let tottelSpace= n-totelColsInRow;
+    for(let spece=0;spece<tottelSpace;spece++){
+        str += " ";
+    }
+    for(let col=0;col<=totelColsInRow;col++){
+        str += " *";
+    }
+    str+="\n";
+}
+console.log(str);
 
 
 // *

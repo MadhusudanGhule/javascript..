@@ -30,3 +30,22 @@
 //     rl.close();
 //   });
 // });
+
+
+
+const person={
+    name:"rama",
+    hello:function(thing){
+        console.log(this.name + "say hello  " + thing + " ")
+
+    },
+
+}
+let alterEgo ={
+    name:"sham ",
+
+};
+const newPerson =person.hello.bind(alterEgo)
+newPerson("hello")
+console.log(newPerson())
+
